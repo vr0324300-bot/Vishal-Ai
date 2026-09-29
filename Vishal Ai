@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishal-Ai</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0b1020;
+      color: white;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #26304a;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 90px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    .hero h1 span {
+      color: #4f9cff;
+    }
+
+    .hero p {
+      color: #b8c1d9;
+      font-size: 18px;
+      max-width: 600px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 28px;
+      background: #4f9cff;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px 70px;
+    }
+
+    .card {
+      background: #151d32;
+      border: 1px solid #293552;
+      padding: 25px;
+      border-radius: 15px;
+    }
+
+    .card h2 {
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #aeb8d0;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #7f8aa5;
+      border-top: 1px solid #26304a;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Vishal-Ai 🤖</div>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to <span>Vishal-Ai</span></h1>
+
+    <p>
+      आपका personal AI assistant.
+      सवाल पूछें, ideas पाएँ और अपने काम को आसान बनाएँ।
+    </p>
+
+    <a href="#features" class="button">Get Started</a>
+  </section>
+
+  <section class="features" id="features">
+
+    <div class="card">
+      <h2>🤖 AI Assistant</h2>
+      <p>अपने सवाल पूछें और AI से तुरंत जवाब पाएँ।</p>
+    </div>
+
+    <div class="card">
+      <h2>⚡ Fast</h2>
+      <p>Simple और तेज़ interface के साथ आसान experience।</p>
+    </div>
+
+    <div class="card">
+      <h2>🔒 Private</h2>
+      <p>आपके personal experience को ध्यान में रखकर बनाया गया interface।</p>
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 Vishal-Ai — Personal Assistant
+  </footer>
+
+</body>
+</html>
